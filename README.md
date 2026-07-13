@@ -1,19 +1,19 @@
 # NeoBukkit
 
-**一个统一、自实现的 Bukkit 服务端 API 库**
-
 [![版本](https://img.shields.io/badge/版本-0.1.0--beta-blue)](https://github.com/CookieX-a/NeoBukkitMC)
 [![构建](https://img.shields.io/badge/构建-通过-brightgreen)]()
 [![许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-21-orange)]()
 
+> 一个统一、自实现的 Bukkit 服务端 API 库
+
 ---
 
 ## ?? 项目简介
 
-**NeoBukkit** 是一个运行于 Bukkit / Spigot / Paper / Purpur / Folia 服务端的**统一 API 库**。
+**NeoBukkit** 是一个运行于 Bukkit / Spigot / Paper / Purpur / Folia 服务端的 **统一 API 库**。
 
-它为插件开发者提供了一套**完整、自实现、不依赖服务端特有类**的统一 API。所有功能都由 NeoBukkit 自己实现，而不是依赖服务端提供——真正做到**一次编译，处处运行**。
+它为插件开发者提供了一套 **完整、自实现、不依赖服务端特有类** 的统一 API。所有功能都由 NeoBukkit 自己实现，而不是依赖服务端提供——真正做到 **一次编译，处处运行**。
 
 无论你的插件部署在哪种服务端上，NeoBukkit 都能确保所有 API 调用正常工作。
 
@@ -21,16 +21,16 @@
 
 ## ?? 核心目标
 
-- **一次编译，处处运行** — 一个 JAR 包，支持 Bukkit / Spigot / Paper / Purpur / Folia
-- **自实现，不依赖服务端特有类** — 不使用反射调用 Paper/Purpur 特有 API，全部自己实现
-- **统一 API，按平台分组** — `API.Core`、`API.Purpur`、`API.Folia`，清晰明了
-- **兼容未来版本** — 不依赖任何可能被移除的 API
+- ? **一次编译，处处运行** — 一个 JAR 包支持 Bukkit / Spigot / Paper / Purpur / Folia
+- ? **自实现，不依赖服务端特有类** — 不使用反射调用 Paper/Purpur 特有 API，全部自己实现
+- ? **统一 API，按平台分组** — `API.Core` / `API.Purpur` / `API.Folia`，清晰明了
+- ? **兼容未来版本** — 不依赖任何可能被移除的 API
 
 ---
 
 ## ? 功能特性
 
-### Core API（所有服务端通用）
+### ?? Core API（所有服务端通用）
 
 | 功能 | 说明 |
 |------|------|
@@ -40,7 +40,7 @@
 | 调度器 | 异步、同步、延迟、定时任务 |
 | 环境检测 | 判断当前运行环境（Folia / Paper / Purpur） |
 
-### Purpur API（增强功能，完全自实现）
+### ?? Purpur API（增强功能，完全自实现）
 
 | 功能 | 说明 |
 |------|------|
@@ -57,7 +57,7 @@
 | Boss API | 凋灵召唤者、劫掠兽破坏控制 |
 | Tooltip | 物品提示框上下文计算 |
 
-### Folia API（区域化调度，完全自实现）
+### ?? Folia API（区域化调度，完全自实现）
 
 | 功能 | 说明 |
 |------|------|
@@ -69,7 +69,7 @@
 
 ---
 
-## ??? 项目结构
+## ?? 项目结构
 
 ```
 x.cookie.NeoBukkit/
@@ -200,11 +200,10 @@ version: 1.0.0
 main: com.example.MyPlugin
 api-version: "1.21"
 depend: [NeoBukkit]
-```
 
 ---
 
-## ?? 要求
+## ?? 系统要求
 
 | 项目 | 要求 |
 |------|------|
@@ -216,9 +215,9 @@ depend: [NeoBukkit]
 
 ## ?? 文档与支持
 
-- **API 文档**：Javadoc 已包含在发布的 JAR 中
-- **源码**：`NeoBukkit-0.1.0-beta-sources.jar`
-- **问题反馈**：[GitHub Issues](https://github.com/CookieX-a/NeoBukkitMC/issues)
+- ?? **API 文档**：Javadoc 已包含在发布的 JAR 中
+- ?? **源码**：`NeoBukkit-0.1.0-beta-sources.jar`
+- ?? **问题反馈**：[GitHub Issues](https://github.com/CookieX-a/NeoBukkitMC/issues)
 
 ---
 
@@ -228,4 +227,4 @@ MIT License
 
 ---
 
-**NeoBukkit** — 让插件开发不再受服务端限制。一次编写，处处运行。
+**NeoBukkit** — 让插件开发不再受服务端限制。一次编写，处处运行。 ??
