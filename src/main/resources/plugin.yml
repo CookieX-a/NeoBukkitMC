@@ -1,0 +1,7 @@
+name: NeoBukkit
+version: 0.1.0-beta
+main: x.cookie.NeoBukkit.NeoBukkitPlugin
+api-version: "1.21"
+author: CookieX-a
+description: Unified API for Spigot,Paper,Purpur and Folia! - Complete Purpur + Folia API implementation
+folia-supported: true
