@@ -1,97 +1,97 @@
 # NeoBukkit
 
-[![°æ±¾](https://img.shields.io/badge/°æ±¾-0.1.0--beta-blue)](https://github.com/CookieX-a/NeoBukkitMC)
-[![¹¹½¨](https://img.shields.io/badge/¹¹½¨-Í¨¹ı-brightgreen)]
-[![Ğí¿ÉÖ¤](https://img.shields.io/badge/Ğí¿ÉÖ¤-MIT-green)](LICENSE)
-[![Java](https://img.shields.io/badge/Java-21-orange)](https://www.oracle.com/news/announcement/oracle-releases-java-26-2026-03-17/)
+[![ç‰ˆæœ¬](https://img.shields.io/badge/ç‰ˆæœ¬-0.1.0--beta-blue)](https://github.com/CookieX-a/NeoBukkitMC)
+[![æ„å»º](https://img.shields.io/badge/æ„å»º-é€šè¿‡-brightgreen)]
+[![è®¸å¯è¯](https://img.shields.io/badge/è®¸å¯è¯-MIT-green)](LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-orange]
 
-> Ò»¸öÍ³Ò»¡¢×ÔÊµÏÖµÄ Spigot ·şÎñ¶Ë API ¿â
-
----
-
-## ?? ÏîÄ¿¼ò½é
-
-**NeoBukkit** ÊÇÒ»¸öÔËĞĞÓÚ Spigot / Paper / Purpur / Folia ·şÎñ¶ËµÄ **Í³Ò» API ¿â**¡£
-
-ËüÎª²å¼ş¿ª·¢ÕßÌá¹©ÁËÒ»Ì× **ÍêÕû¡¢×ÔÊµÏÖ¡¢²»ÒÀÀµ·şÎñ¶ËÌØÓĞÀà** µÄÍ³Ò» API¡£ËùÓĞ¹¦ÄÜ¶¼ÓÉ NeoBukkit ×Ô¼ºÊµÏÖ£¬¶ø²»ÊÇÒÀÀµ·şÎñ¶ËÌá¹©¡ª¡ªÕæÕı×öµ½ **Ò»´Î±àÒë£¬´¦´¦ÔËĞĞ**¡£
-
-ÎŞÂÛÄãµÄ²å¼ş²¿ÊğÔÚ Spigot¡¢Paper¡¢Purpur »¹ÊÇ Folia ÉÏ£¬NeoBukkit ¶¼ÄÜÈ·±£ËùÓĞ API µ÷ÓÃÕı³£¹¤×÷¡£
+> ä¸€ä¸ªç»Ÿä¸€ã€è‡ªå®ç°çš„ Spigot æœåŠ¡ç«¯ API åº“
 
 ---
 
-## ?? ºËĞÄÄ¿±ê
+## ğŸ“– é¡¹ç›®ç®€ä»‹
 
-- ? **Ò»´Î±àÒë£¬´¦´¦ÔËĞĞ** ¡ª Ò»¸ö JAR °üÖ§³Ö Spigot / Paper / Purpur / Folia
-- ? **×ÔÊµÏÖ£¬²»ÒÀÀµ·şÎñ¶ËÌØÓĞÀà** ¡ª ²»Ê¹ÓÃ·´Éäµ÷ÓÃ Paper/Purpur ÌØÓĞ API£¬È«²¿×Ô¼ºÊµÏÖ
-- ? **Í³Ò» API£¬°´Æ½Ì¨·Ö×é** ¡ª `API.Core` / `API.Purpur` / `API.Folia`£¬ÇåÎúÃ÷ÁË
-- ? **¼æÈİÎ´À´°æ±¾** ¡ª ²»ÒÀÀµÈÎºÎ¿ÉÄÜ±»ÒÆ³ıµÄ API
+**NeoBukkit** æ˜¯ä¸€ä¸ªè¿è¡Œäº Spigot / Paper / Purpur / Folia æœåŠ¡ç«¯çš„ **ç»Ÿä¸€ API åº“**ã€‚
+
+å®ƒä¸ºæ’ä»¶å¼€å‘è€…æä¾›äº†ä¸€å¥— **å®Œæ•´ã€è‡ªå®ç°ã€ä¸ä¾èµ–æœåŠ¡ç«¯ç‰¹æœ‰ç±»** çš„ç»Ÿä¸€ APIã€‚æ‰€æœ‰åŠŸèƒ½éƒ½ç”± NeoBukkit è‡ªå·±å®ç°ï¼Œè€Œä¸æ˜¯ä¾èµ–æœåŠ¡ç«¯æä¾›â€”â€”çœŸæ­£åšåˆ° **ä¸€æ¬¡ç¼–è¯‘ï¼Œå¤„å¤„è¿è¡Œ**ã€‚
+
+æ— è®ºä½ çš„æ’ä»¶éƒ¨ç½²åœ¨ Spigotã€Paperã€Purpur è¿˜æ˜¯ Folia ä¸Šï¼ŒNeoBukkit éƒ½èƒ½ç¡®ä¿æ‰€æœ‰ API è°ƒç”¨æ­£å¸¸å·¥ä½œã€‚
 
 ---
 
-## ? ¹¦ÄÜÌØĞÔ
+## ğŸ¯ æ ¸å¿ƒç›®æ ‡
 
-### ?? Core API£¨ËùÓĞ·şÎñ¶ËÍ¨ÓÃ£©
+- âœ… **ä¸€æ¬¡ç¼–è¯‘ï¼Œå¤„å¤„è¿è¡Œ** â€” ä¸€ä¸ª JAR åŒ…æ”¯æŒ Spigot / Paper / Purpur / Folia
+- âœ… **è‡ªå®ç°ï¼Œä¸ä¾èµ–æœåŠ¡ç«¯ç‰¹æœ‰ç±»** â€” ä¸ä½¿ç”¨åå°„è°ƒç”¨ Paper/Purpur ç‰¹æœ‰ APIï¼Œå…¨éƒ¨è‡ªå·±å®ç°
+- âœ… **ç»Ÿä¸€ APIï¼ŒæŒ‰å¹³å°åˆ†ç»„** â€” `API.Core` / `API.Purpur` / `API.Folia`ï¼Œæ¸…æ™°æ˜äº†
+- âœ… **å…¼å®¹æœªæ¥ç‰ˆæœ¬** â€” ä¸ä¾èµ–ä»»ä½•å¯èƒ½è¢«ç§»é™¤çš„ API
 
-| ¹¦ÄÜ | ËµÃ÷ |
+---
+
+## âœ¨ åŠŸèƒ½ç‰¹æ€§
+
+### ğŸ”¹ Core APIï¼ˆæ‰€æœ‰æœåŠ¡ç«¯é€šç”¨ï¼‰
+
+| åŠŸèƒ½ | è¯´æ˜ |
 |------|------|
-| ·şÎñÆ÷ĞÅÏ¢ | Ãû³Æ¡¢°æ±¾¡¢MOTD¡¢×î´óÍæ¼ÒÊı |
-| Íæ¼Ò²Ù×÷ | »ñÈ¡Íæ¼Ò¡¢¹ã²¥ÏûÏ¢¡¢ActionBar¡¢Title |
-| ÊÀ½ç²Ù×÷ | »ñÈ¡ÊÀ½ç¡¢ÊÀ½çÁĞ±í |
-| µ÷¶ÈÆ÷ | Òì²½¡¢Í¬²½¡¢ÑÓ³Ù¡¢¶¨Ê±ÈÎÎñ |
-| »·¾³¼ì²â | ÅĞ¶Ïµ±Ç°ÔËĞĞ»·¾³£¨Folia / Paper / Purpur£© |
+| æœåŠ¡å™¨ä¿¡æ¯ | åç§°ã€ç‰ˆæœ¬ã€MOTDã€æœ€å¤§ç©å®¶æ•° |
+| ç©å®¶æ“ä½œ | è·å–ç©å®¶ã€å¹¿æ’­æ¶ˆæ¯ã€ActionBarã€Title |
+| ä¸–ç•Œæ“ä½œ | è·å–ä¸–ç•Œã€ä¸–ç•Œåˆ—è¡¨ |
+| è°ƒåº¦å™¨ | å¼‚æ­¥ã€åŒæ­¥ã€å»¶è¿Ÿã€å®šæ—¶ä»»åŠ¡ |
+| ç¯å¢ƒæ£€æµ‹ | åˆ¤æ–­å½“å‰è¿è¡Œç¯å¢ƒï¼ˆFolia / Paper / Purpurï¼‰ |
 
-### ?? Purpur API£¨ÔöÇ¿¹¦ÄÜ£¬ÍêÈ«×ÔÊµÏÖ£©
+### ğŸ”¸ Purpur APIï¼ˆå¢å¼ºåŠŸèƒ½ï¼Œå®Œå…¨è‡ªå®ç°ï¼‰
 
-| ¹¦ÄÜ | ËµÃ÷ |
+| åŠŸèƒ½ | è¯´æ˜ |
 |------|------|
-| TPS ¼à¿Ø | »ñÈ¡·şÎñÆ÷ TPS£¨1m / 5m / 15m£© |
-| ¿¨¶Ù¼ì²â | ×Ô¶¯ÅĞ¶Ï·şÎñÆ÷ÊÇ·ñ¿¨¶Ù |
-| AFK ¹ÜÀí | Íæ¼Ò AFK ×´Ì¬²éÑ¯ÓëÉèÖÃ |
-| ÊµÌåÔöÇ¿ | »ğÑæÃâÒß¡¢ÈÕ¹âÈ¼ÉÕ¡¢Æï³ËÏµÍ³ |
-| Block Highlight | ·½¿é¸ßÁÁ±ê¼Ç |
-| StoredEntity | ·½¿éÊµÌå´æ´¢¹ÜÀí |
-| ÎïÆ·ÔöÇ¿ | ÏÔÊ¾Ãû¡¢×Ô¶¨ÒåÄ£ĞÍÊı¾İ¡¢ÊôĞÔĞŞÊÎ·û |
-| UI Bars | TPS / RAM ×´Ì¬Ìõ |
-| È¼ÁÏÏµÍ³ | ¶¯Ì¬×¢²á/ÒÆ³ıÈÛÂ¯È¼ÁÏ |
-| ÇøÓòÄÑ¶È | »ñÈ¡Ö¸¶¨Î»ÖÃµÄÇøÓòÄÑ¶È |
-| Boss API | µòÁéÕÙ»½Õß¡¢½ÙÂÓÊŞÆÆ»µ¿ØÖÆ |
-| Tooltip | ÎïÆ·ÌáÊ¾¿òÉÏÏÂÎÄ¼ÆËã |
+| TPS ç›‘æ§ | è·å–æœåŠ¡å™¨ TPSï¼ˆ1m / 5m / 15mï¼‰ |
+| å¡é¡¿æ£€æµ‹ | è‡ªåŠ¨åˆ¤æ–­æœåŠ¡å™¨æ˜¯å¦å¡é¡¿ |
+| AFK ç®¡ç† | ç©å®¶ AFK çŠ¶æ€æŸ¥è¯¢ä¸è®¾ç½® |
+| å®ä½“å¢å¼º | ç«ç„°å…ç–«ã€æ—¥å…‰ç‡ƒçƒ§ã€éª‘ä¹˜ç³»ç»Ÿ |
+| Block Highlight | æ–¹å—é«˜äº®æ ‡è®° |
+| StoredEntity | æ–¹å—å®ä½“å­˜å‚¨ç®¡ç† |
+| ç‰©å“å¢å¼º | æ˜¾ç¤ºåã€è‡ªå®šä¹‰æ¨¡å‹æ•°æ®ã€å±æ€§ä¿®é¥°ç¬¦ |
+| UI Bars | TPS / RAM çŠ¶æ€æ¡ |
+| ç‡ƒæ–™ç³»ç»Ÿ | åŠ¨æ€æ³¨å†Œ/ç§»é™¤ç†”ç‚‰ç‡ƒæ–™ |
+| åŒºåŸŸéš¾åº¦ | è·å–æŒ‡å®šä½ç½®çš„åŒºåŸŸéš¾åº¦ |
+| Boss API | å‡‹çµå¬å”¤è€…ã€åŠ«æ å…½ç ´åæ§åˆ¶ |
+| Tooltip | ç‰©å“æç¤ºæ¡†ä¸Šä¸‹æ–‡è®¡ç®— |
 
-### ?? Folia API£¨ÇøÓò»¯µ÷¶È£¬ÍêÈ«×ÔÊµÏÖ£©
+### ğŸ”¹ Folia APIï¼ˆåŒºåŸŸåŒ–è°ƒåº¦ï¼Œå®Œå…¨è‡ªå®ç°ï¼‰
 
-| ¹¦ÄÜ | ËµÃ÷ |
+| åŠŸèƒ½ | è¯´æ˜ |
 |------|------|
-| ÇøÓòµ÷¶È | `runAtRegion` / `runAtRegionLater` / `runAtRegionTimer` |
-| ÊµÌåµ÷¶È | `runAtEntity` / `runAtEntityLater` |
-| È«¾Öµ÷¶È | `runGlobal` |
-| Òì²½µ÷¶È | `runAsyncNow` |
-| ÇøÓò TPS | »ñÈ¡Ö¸¶¨Î»ÖÃ/Çø¿éµÄÇøÓò TPS |
+| åŒºåŸŸè°ƒåº¦ | `runAtRegion` / `runAtRegionLater` / `runAtRegionTimer` |
+| å®ä½“è°ƒåº¦ | `runAtEntity` / `runAtEntityLater` |
+| å…¨å±€è°ƒåº¦ | `runGlobal` |
+| å¼‚æ­¥è°ƒåº¦ | `runAsyncNow` |
+| åŒºåŸŸ TPS | è·å–æŒ‡å®šä½ç½®/åŒºå—çš„åŒºåŸŸ TPS |
 
 ---
 
-## ?? ÏîÄ¿½á¹¹
+## ğŸ“ é¡¹ç›®ç»“æ„
 
 ```
 x.cookie.NeoBukkit/
-©À©¤©¤ API.java                    # Í³Ò»Èë¿Ú£¨°´Æ½Ì¨·Ö×é£©
-©¦   ©À©¤©¤ API.Core                # ËùÓĞ·şÎñ¶ËÍ¨ÓÃ
-©¦   ©À©¤©¤ API.Purpur              # Purpur ÔöÇ¿¹¦ÄÜ
-©¦   ©¸©¤©¤ API.Folia               # Folia ÇøÓòµ÷¶È
-©À©¤©¤ NeoBukkitAPI.java           # Í³Ò»½Ó¿Ú
-©À©¤©¤ NeoBukkitPlugin.java        # ²å¼şÖ÷Àà
-©À©¤©¤ impl/
-©¦   ©À©¤©¤ PurpurUnifiedImpl.java  # Purpur È«²¿ API ÊµÏÖ£¨ÍêÈ«×ÔÊµÏÖ£©
-©¦   ©¸©¤©¤ FoliaUnifiedImpl.java   # Folia ÌØÓĞÀ©Õ¹£¨ÇøÓòµ÷¶È + ÇøÓò TPS£©
-©¸©¤©¤ internal/
-    ©À©¤©¤ ServiceDetector.java    # »·¾³¼ì²â
-    ©¸©¤©¤ TpsTracker.java         # TPS ¼ÆËãÆ÷
+â”œâ”€â”€ API.java                    # ç»Ÿä¸€å…¥å£ï¼ˆæŒ‰å¹³å°åˆ†ç»„ï¼‰
+â”‚   â”œâ”€â”€ API.Core                # æ‰€æœ‰æœåŠ¡ç«¯é€šç”¨
+â”‚   â”œâ”€â”€ API.Purpur              # Purpur å¢å¼ºåŠŸèƒ½
+â”‚   â””â”€â”€ API.Folia               # Folia åŒºåŸŸè°ƒåº¦
+â”œâ”€â”€ NeoBukkitAPI.java           # ç»Ÿä¸€æ¥å£
+â”œâ”€â”€ NeoBukkitPlugin.java        # æ’ä»¶ä¸»ç±»
+â”œâ”€â”€ impl/
+â”‚   â”œâ”€â”€ PurpurUnifiedImpl.java  # Purpur å…¨éƒ¨ API å®ç°ï¼ˆå®Œå…¨è‡ªå®ç°ï¼‰
+â”‚   â””â”€â”€ FoliaUnifiedImpl.java   # Folia ç‰¹æœ‰æ‰©å±•ï¼ˆåŒºåŸŸè°ƒåº¦ + åŒºåŸŸ TPSï¼‰
+â””â”€â”€ internal/
+    â”œâ”€â”€ ServiceDetector.java    # ç¯å¢ƒæ£€æµ‹
+    â””â”€â”€ TpsTracker.java         # TPS è®¡ç®—å™¨
 ```
 
 ---
 
-## ?? Ê¹ÓÃÊ¾Àı
+## ğŸš€ ä½¿ç”¨ç¤ºä¾‹
 
-### »ù´¡ÓÃ·¨
+### åŸºç¡€ç”¨æ³•
 
 ```java
 import x.cookie.NeoBukkit.API;
@@ -99,51 +99,51 @@ import x.cookie.NeoBukkit.API;
 public class MyPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        // ³õÊ¼»¯ NeoBukkit
+        // åˆå§‹åŒ– NeoBukkit
         API.Core.setPlugin(this);
 
-        // »ñÈ¡·şÎñÆ÷ĞÅÏ¢
+        // è·å–æœåŠ¡å™¨ä¿¡æ¯
         String serverName = API.Core.getServerName();
         int playerCount = API.Core.getOnlinePlayers().size();
 
-        // »ñÈ¡ TPS
+        // è·å– TPS
         double[] tps = API.Purpur.getTPS();
         getLogger().info("TPS: " + tps[0]);
 
-        // Òì²½ÈÎÎñ£¨×Ô¶¯ÊÊÅä Folia/Paper/Bukkit£©
+        // å¼‚æ­¥ä»»åŠ¡ï¼ˆè‡ªåŠ¨é€‚é… Folia/Paper/Bukkitï¼‰
         API.Core.runAsync(() -> {
-            // ºÄÊ±²Ù×÷
+            // è€—æ—¶æ“ä½œ
         });
 
-        // Folia ÇøÓòµ÷¶È£¨·Ç Folia »·¾³×Ô¶¯½µ¼¶£©
+        // Folia åŒºåŸŸè°ƒåº¦ï¼ˆé Folia ç¯å¢ƒè‡ªåŠ¨é™çº§ï¼‰
         API.Folia.runAtRegion(player.getLocation(), () -> {
-            // ÔÚÇøÓòÏß³ÌÖ´ĞĞ
+            // åœ¨åŒºåŸŸçº¿ç¨‹æ‰§è¡Œ
         });
     }
 }
 ```
 
-### °´Æ½Ì¨·ÖÀàµ÷ÓÃ
+### æŒ‰å¹³å°åˆ†ç±»è°ƒç”¨
 
 ```java
-// Core API£¨ËùÓĞ·şÎñ¶ËÍ¨ÓÃ£©
+// Core APIï¼ˆæ‰€æœ‰æœåŠ¡ç«¯é€šç”¨ï¼‰
 API.Core.getServerName();
 API.Core.runAsync(() -> {});
 API.Core.broadcastMessage("Hello!");
 
-// Purpur API£¨ÔöÇ¿¹¦ÄÜ£¬ÍêÈ«×ÔÊµÏÖ£©
+// Purpur APIï¼ˆå¢å¼ºåŠŸèƒ½ï¼Œå®Œå…¨è‡ªå®ç°ï¼‰
 API.Purpur.getTPS();
 API.Purpur.isAfk(player);
 API.Purpur.addFuel(Material.COAL, 3000);
 
-// Folia API£¨ÇøÓòµ÷¶È£¬·Ç Folia »·¾³×Ô¶¯½µ¼¶£©
+// Folia APIï¼ˆåŒºåŸŸè°ƒåº¦ï¼Œé Folia ç¯å¢ƒè‡ªåŠ¨é™çº§ï¼‰
 API.Folia.runAtRegion(location, () -> {});
 API.Folia.getRegionTPS(location);
 ```
 
 ---
 
-## ?? ÒÀÀµÅäÖÃ
+## ğŸ“¦ ä¾èµ–é…ç½®
 
 ### Gradle
 
@@ -172,27 +172,27 @@ dependencies {
 
 ---
 
-## ??? ±àÒëÓë¹¹½¨
+## ğŸ› ï¸ ç¼–è¯‘ä¸æ„å»º
 
 ```bash
-# ¿ËÂ¡ÏîÄ¿
+# å…‹éš†é¡¹ç›®
 git clone https://github.com/CookieX-a/NeoBukkitMC.git
 
-# ½øÈëÄ¿Â¼
+# è¿›å…¥ç›®å½•
 cd NeoBukkit
 
-# ±àÒë´ò°ü
+# ç¼–è¯‘æ‰“åŒ…
 ./gradlew clean build
 
-# Êä³öÎ»ÖÃ
+# è¾“å‡ºä½ç½®
 build/libs/NeoBukkit-0.1.0-beta.jar
 ```
 
 ---
 
-## ?? ²å¼şÒÀÀµ
+## ğŸ“„ æ’ä»¶ä¾èµ–
 
-ÔÚÄãµÄ `plugin.yml` ÖĞÉùÃ÷ÒÀÀµ£º
+åœ¨ä½ çš„ `plugin.yml` ä¸­å£°æ˜ä¾èµ–ï¼š
 
 ```yaml
 name: MyPlugin
@@ -204,28 +204,28 @@ depend: [NeoBukkit]
 
 ---
 
-## ?? ÏµÍ³ÒªÇó
+## ğŸ”§ ç³»ç»Ÿè¦æ±‚
 
-| ÏîÄ¿ | ÒªÇó |
+| é¡¹ç›® | è¦æ±‚ |
 |------|------|
-| Java | 21 »ò¸ü¸ß°æ±¾ |
-| ·şÎñ¶Ë | Spigot / Paper / Purpur / Folia |
-| Minecraft | 26.1.2 »ò¸ü¸ß°æ±¾ |
+| Java | 21 æˆ–æ›´é«˜ç‰ˆæœ¬ |
+| æœåŠ¡ç«¯ | Spigot / Paper / Purpur / Folia |
+| Minecraft | 26.1.2 æˆ–æ›´é«˜ç‰ˆæœ¬ |
 
 ---
 
-## ?? ÎÄµµÓëÖ§³Ö
+## ğŸ“š æ–‡æ¡£ä¸æ”¯æŒ
 
-- ?? **API ÎÄµµ**£ºJavadoc ÒÑ°üº¬ÔÚ·¢²¼µÄ JAR ÖĞ
-- ?? **Ô´Âë**£º`NeoBukkit-0.1.0-beta-sources.jar`
-- ?? **ÎÊÌâ·´À¡**£º[GitHub Issues](https://github.com/CookieX-a/NeoBukkitMC/issues)
+- ğŸ“– **API æ–‡æ¡£**ï¼šJavadoc å·²åŒ…å«åœ¨å‘å¸ƒçš„ JAR ä¸­
+- ğŸ“¦ **æºç **ï¼š`NeoBukkit-0.1.0-beta-sources.jar`
+- ğŸ› **é—®é¢˜åé¦ˆ**ï¼š[GitHub Issues](https://github.com/CookieX-a/NeoBukkitMC/issues)
 
 ---
 
-## ?? Ğí¿ÉÖ¤
+## ğŸ“ è®¸å¯è¯
 
 MIT License
 
 ---
 
-**NeoBukkit** ¡ª ÈÃ²å¼ş¿ª·¢²»ÔÙÊÜ·şÎñ¶ËÏŞÖÆ¡£Ò»´Î±àĞ´£¬´¦´¦ÔËĞĞ¡£ ??
+**NeoBukkit** â€” è®©æ’ä»¶å¼€å‘ä¸å†å—æœåŠ¡ç«¯é™åˆ¶ã€‚ä¸€æ¬¡ç¼–å†™ï¼Œå¤„å¤„è¿è¡Œã€‚ ğŸš€
