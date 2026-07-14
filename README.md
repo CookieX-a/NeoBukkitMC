@@ -1,14 +1,14 @@
-\# NeoBukkit
+# NeoBukkit
 
 
 
-\[!\[版本](https://img.shields.io/badge/版本-0.1.0--beta-blue)](https://github.com/CookieX-a/NeoBukkitMC)
+[![版本](https://img.shields.io/badge/版本-0.1.0--beta-blue)](https://github.com/CookieX-a/NeoBukkitMC)
 
-\[!\[构建](https://img.shields.io/badge/构建-通过-brightgreen)]()
+[![构建](https://img.shields.io/badge/构建-通过-brightgreen)]()
 
-\[!\[许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE)
+[![许可证](https://img.shields.io/badge/许可证-MIT-green)](LICENSE)
 
-\[!\[Java](https://img.shields.io/badge/Java-21-orange)]()
+[![Java](https://img.shields.io/badge/Java-21-orange)]()
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-\## 项目简介
+## 项目简介
 
 
 
@@ -32,27 +32,27 @@ NeoBukkit 是一个运行于 Spigot / Paper / Purpur / Folia 服务端的统一 
 
 
 
-\## 核心目标
+## 核心目标
 
 
 
-\- 一次编译，处处运行 — 一个 JAR 包支持 Spigot / Paper / Purpur / Folia
+- 一次编译，处处运行 — 一个 JAR 包支持 Spigot / Paper / Purpur / Folia
 
-\- 自实现，不依赖服务端特有类 — 全部自己实现，不反射调用 Paper/Purpur 特有 API
+- 自实现，不依赖服务端特有类 — 全部自己实现，不反射调用 Paper/Purpur 特有 API
 
-\- 统一 API，按平台分组 — API.Core / API.Purpur / API.Folia，清晰明了
+- 统一 API，按平台分组 — API.Core / API.Purpur / API.Folia，清晰明了
 
-\- 兼容未来版本 — 不依赖任何可能被移除的 API
-
-
+- 兼容未来版本 — 不依赖任何可能被移除的 API
 
 
 
-\## 功能特性
+
+
+## 功能特性
 
 
 
-\### Core API（所有服务端通用）
+### Core API（所有服务端通用）
 
 
 
@@ -72,7 +72,7 @@ NeoBukkit 是一个运行于 Spigot / Paper / Purpur / Folia 服务端的统一 
 
 
 
-\### Purpur API
+### Purpur API
 
 
 
@@ -106,7 +106,7 @@ NeoBukkit 是一个运行于 Spigot / Paper / Purpur / Folia 服务端的统一 
 
 
 
-\### Folia API（区域化调度）
+### Folia API（区域化调度）
 
 
 
@@ -128,7 +128,7 @@ NeoBukkit 是一个运行于 Spigot / Paper / Purpur / Folia 服务端的统一 
 
 
 
-\## 使用示例
+## 使用示例
 
 
 
@@ -160,9 +160,9 @@ public class MyPlugin extends JavaPlugin {
 
 &#x20;       // 获取 TPS
 
-&#x20;       double\[] tps = API.Purpur.getTPS();
+&#x20;       double[] tps = API.Purpur.getTPS();
 
-&#x20;       getLogger().info("TPS: " + tps\[0]);
+&#x20;       getLogger().info("TPS: " + tps[0]);
 
 
 
@@ -194,19 +194,19 @@ public class MyPlugin extends JavaPlugin {
 
 
 
-\## 下载与使用
+## 下载与使用
 
 
 
-从 \[Releases](https://github.com/CookieX-a/NeoBukkitMC/releases) 页面下载 `NeoBukkit-0.1.0-beta.jar`，放入服务端 `plugins/` 目录即可。
+从 [Releases](https://github.com/CookieX-a/NeoBukkitMC/releases) 页面下载 `NeoBukkit-0.1.0-beta.jar`，放入服务端 `plugins/` 目录即可。
 
 
 
-\### 通过 JitPack 引用（可选）
+### 通过 JitPack 引用（可选）
 
 
 
-\*\*Gradle\*\*:
+**Gradle**:
 
 ```gradle
 
@@ -226,7 +226,7 @@ dependencies {
 
 
 
-\*\*Maven\*\*:
+**Maven**:
 
 ```xml
 
@@ -256,7 +256,7 @@ dependencies {
 
 
 
-\## 编译
+## 编译
 
 
 
@@ -268,7 +268,7 @@ cd NeoBukkit
 
 ./gradlew clean build
 
-\# 输出: build/libs/NeoBukkit-0.1.0-beta.jar
+# 输出: build/libs/NeoBukkit-0.1.0-beta.jar
 
 ```
 
@@ -276,7 +276,7 @@ cd NeoBukkit
 
 
 
-\## 插件依赖
+## 插件依赖
 
 
 
@@ -286,7 +286,7 @@ cd NeoBukkit
 
 ```yaml
 
-depend: \[NeoBukkit]
+depend: [NeoBukkit]
 
 ```
 
@@ -294,23 +294,22 @@ depend: \[NeoBukkit]
 
 
 
-\## 系统要求
+## 系统要求
 
 
 
-\- Java 21 或更高版本
+- Java 21 或更高版本
 
-\- 服务端: Spigot / Paper / Purpur / Folia
+- 服务端: Spigot / Paper / Purpur / Folia
 
-\- Minecraft 26.1.2 或更高版本
-
-
+- Minecraft 26.1.2 或更高版本
 
 
 
-\## 许可证
+
+
+## 许可证
 
 
 
 MIT License
-
