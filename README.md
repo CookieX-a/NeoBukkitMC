@@ -202,55 +202,8 @@ public class MyPlugin extends JavaPlugin {
 
 
 
-### 通过 JitPack 引用（可选）
-
-
-
-**Gradle**:
-
-```gradle
-
-repositories {
-
-&#x20;   maven { url 'https://jitpack.io' }
-
-}
-
-dependencies {
-
-&#x20;   compileOnly 'com.github.CookieX-a:NeoBukkitMC:0.1.0-beta'
-
-}
-
-```
-
-
-
-**Maven**:
-
-```xml
-
-<repository>
-
-&#x20;   <id>jitpack</id>
-
-&#x20;   <url>https://jitpack.io</url>
-
-</repository>
-
-<dependency>
-
-&#x20;   <groupId>com.github.CookieX-a</groupId>
-
-&#x20;   <artifactId>NeoBukkitMC</artifactId>
-
-&#x20;   <version>0.1.0-beta</version>
-
-&#x20;   <scope>provided</scope>
-
-</dependency>
-
-```
+### 通过Modrinth Maven API下载
+见Releases中的Modrinth链接的Developer information
 
 
 
